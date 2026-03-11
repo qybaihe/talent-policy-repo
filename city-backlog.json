@@ -106,9 +106,10 @@
   {
     "city": "珠海",
     "priority": 74,
-    "status": "todo",
+    "status": "drafting",
     "notes": "湾区城市（先骨架扩城，区级后补）",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:57.113Z"
   },
   {
     "city": "西宁",
