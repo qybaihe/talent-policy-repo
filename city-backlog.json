@@ -82,9 +82,10 @@
   {
     "city": "徐州",
     "priority": 80,
-    "status": "todo",
+    "status": "drafting",
     "notes": "区域中心城市",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:45.676Z"
   },
   {
     "city": "温州",
