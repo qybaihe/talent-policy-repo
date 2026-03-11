@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T18:47:59.013Z",
+  "generated_at": "2026-03-11T18:49:14.103Z",
   "workers": 3,
   "actions": {
     "completed_since_last_run": [],
@@ -32,15 +32,6 @@
       }
     ],
     "running_after": [
-      {
-        "city": "福州",
-        "reason": "rewrite",
-        "issues": [
-          "placeholder:首轮骨架",
-          "missing_hint:金额"
-        ],
-        "started_at": "2026-03-12T00:39:32"
-      },
       {
         "city": "昆明",
         "reason": "rewrite",
@@ -160,15 +151,6 @@
     "backlog_done": 0
   },
   "running": [
-    {
-      "city": "福州",
-      "reason": "rewrite",
-      "issues": [
-        "placeholder:首轮骨架",
-        "missing_hint:金额"
-      ],
-      "started_at": "2026-03-12T00:39:32"
-    },
     {
       "city": "昆明",
       "reason": "rewrite",
