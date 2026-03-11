@@ -1,18 +1,110 @@
 [
-  {"city":"福州","priority":100,"status":"todo","notes":"省会；与厦门/泉州/漳州联动","seed_links":[]},
-  {"city":"南昌","priority":98,"status":"todo","notes":"省会；补贴政策常见","seed_links":[]},
-  {"city":"昆明","priority":96,"status":"todo","notes":"省会；人才政策常见","seed_links":[]},
-  {"city":"南宁","priority":94,"status":"todo","notes":"省会","seed_links":[]},
-  {"city":"石家庄","priority":92,"status":"todo","notes":"省会","seed_links":[]},
-  {"city":"太原","priority":90,"status":"todo","notes":"省会","seed_links":[]},
-  {"city":"哈尔滨","priority":88,"status":"todo","notes":"省会","seed_links":[]},
-  {"city":"长春","priority":86,"status":"todo","notes":"省会","seed_links":[]},
-  {"city":"沈阳","priority":84,"status":"todo","notes":"省会","seed_links":[]},
-  {"city":"大连","priority":82,"status":"todo","notes":"副省级","seed_links":[]},
-
-  {"city":"徐州","priority":80,"status":"todo","notes":"区域中心城市","seed_links":[]},
-  {"city":"温州","priority":78,"status":"todo","notes":"民营经济强市","seed_links":[]},
-  {"city":"潍坊","priority":76,"status":"todo","notes":"山东重要产业城市","seed_links":[]},
-  {"city":"珠海","priority":74,"status":"todo","notes":"湾区城市（先骨架扩城，区级后补）","seed_links":[]},
-  {"city":"西宁","priority":72,"status":"todo","notes":"西北补位","seed_links":[]}
+  {
+    "city": "福州",
+    "priority": 100,
+    "status": "drafting",
+    "notes": "省会；与厦门/泉州/漳州联动",
+    "seed_links": [],
+    "last_touched": "2026-03-11T07:44:11.283Z"
+  },
+  {
+    "city": "南昌",
+    "priority": 98,
+    "status": "drafting",
+    "notes": "省会；补贴政策常见",
+    "seed_links": [],
+    "last_touched": "2026-03-11T07:44:11.283Z"
+  },
+  {
+    "city": "昆明",
+    "priority": 96,
+    "status": "drafting",
+    "notes": "省会；人才政策常见",
+    "seed_links": [],
+    "last_touched": "2026-03-11T07:44:11.283Z"
+  },
+  {
+    "city": "南宁",
+    "priority": 94,
+    "status": "todo",
+    "notes": "省会",
+    "seed_links": []
+  },
+  {
+    "city": "石家庄",
+    "priority": 92,
+    "status": "todo",
+    "notes": "省会",
+    "seed_links": []
+  },
+  {
+    "city": "太原",
+    "priority": 90,
+    "status": "todo",
+    "notes": "省会",
+    "seed_links": []
+  },
+  {
+    "city": "哈尔滨",
+    "priority": 88,
+    "status": "todo",
+    "notes": "省会",
+    "seed_links": []
+  },
+  {
+    "city": "长春",
+    "priority": 86,
+    "status": "todo",
+    "notes": "省会",
+    "seed_links": []
+  },
+  {
+    "city": "沈阳",
+    "priority": 84,
+    "status": "todo",
+    "notes": "省会",
+    "seed_links": []
+  },
+  {
+    "city": "大连",
+    "priority": 82,
+    "status": "todo",
+    "notes": "副省级",
+    "seed_links": []
+  },
+  {
+    "city": "徐州",
+    "priority": 80,
+    "status": "todo",
+    "notes": "区域中心城市",
+    "seed_links": []
+  },
+  {
+    "city": "温州",
+    "priority": 78,
+    "status": "todo",
+    "notes": "民营经济强市",
+    "seed_links": []
+  },
+  {
+    "city": "潍坊",
+    "priority": 76,
+    "status": "todo",
+    "notes": "山东重要产业城市",
+    "seed_links": []
+  },
+  {
+    "city": "珠海",
+    "priority": 74,
+    "status": "todo",
+    "notes": "湾区城市（先骨架扩城，区级后补）",
+    "seed_links": []
+  },
+  {
+    "city": "西宁",
+    "priority": 72,
+    "status": "todo",
+    "notes": "西北补位",
+    "seed_links": []
+  }
 ]
