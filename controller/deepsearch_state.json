@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T18:49:14.103Z",
+  "generated_at": "2026-03-11T18:49:51.152Z",
   "workers": 3,
   "actions": {
     "completed_since_last_run": [],
@@ -31,16 +31,7 @@
         "started_at": "2026-03-12T00:39:32"
       }
     ],
-    "running_after": [
-      {
-        "city": "昆明",
-        "reason": "rewrite",
-        "issues": [
-          "placeholder:待复核"
-        ],
-        "started_at": "2026-03-12T00:39:32"
-      }
-    ],
+    "running_after": [],
     "rewrite_preview": [
       {
         "city": "哈尔滨",
@@ -150,14 +141,5 @@
     "backlog_total": 15,
     "backlog_done": 0
   },
-  "running": [
-    {
-      "city": "昆明",
-      "reason": "rewrite",
-      "issues": [
-        "placeholder:待复核"
-      ],
-      "started_at": "2026-03-12T00:39:32"
-    }
-  ]
+  "running": []
 }
