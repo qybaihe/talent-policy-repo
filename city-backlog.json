@@ -5,47 +5,47 @@
     "status": "drafting",
     "notes": "省会；与厦门/泉州/漳州联动",
     "seed_links": [],
-    "last_touched": "2026-03-11T07:44:11.283Z"
+    "last_touched": "2026-03-11T09:46:39.575Z"
   },
   {
     "city": "南昌",
     "priority": 98,
-    "status": "drafting",
+    "status": "deepsearching",
     "notes": "省会；补贴政策常见",
     "seed_links": [],
-    "last_touched": "2026-03-11T07:44:11.283Z"
+    "last_touched": "2026-03-11T09:37:48.907Z"
   },
   {
     "city": "昆明",
     "priority": 96,
-    "status": "drafting",
+    "status": "deepsearching",
     "notes": "省会；人才政策常见",
     "seed_links": [],
-    "last_touched": "2026-03-11T07:44:11.283Z"
+    "last_touched": "2026-03-11T09:37:48.907Z"
   },
   {
     "city": "南宁",
     "priority": 94,
-    "status": "drafting",
+    "status": "deepsearching",
     "notes": "省会",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:36:20.700Z"
+    "last_touched": "2026-03-11T09:46:12.224Z"
   },
   {
     "city": "石家庄",
     "priority": 92,
-    "status": "drafting",
+    "status": "deepsearching",
     "notes": "省会",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:36:20.700Z"
+    "last_touched": "2026-03-11T09:46:12.224Z"
   },
   {
     "city": "太原",
     "priority": 90,
-    "status": "drafting",
+    "status": "deepsearching",
     "notes": "省会",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:36:20.700Z"
+    "last_touched": "2026-03-11T09:46:12.224Z"
   },
   {
     "city": "哈尔滨",
