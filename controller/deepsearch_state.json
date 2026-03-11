@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-03-12T00:39:32",
+  "workers": 3,
+  "actions": {
+    "completed_since_last_run": [],
+    "launched": [
+      {
+        "city": "福州",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:金额"
+        ],
+        "started_at": "2026-03-12T00:39:32",
+        "spawn_blueprint": {
+          "city": "福州",
+          "cwd": "/root/.openclaw/workspace/talent-policy-repo",
+          "label": "talent-deep-福州",
+          "task": "严格版深挖并完善《福州》人才政策速查：编辑 `重点城市速查版/福州.md`。\n要求：\n1. 如果原文件是骨架/半成品，直接补全到可交付深度版。\n2. 必须覆盖：市级政策核心条目、主要区县差异、金额/门槛/有效期、申请入口、互斥/限制条件。\n3. 每个关键结论尽量给官方链接；如果当前环境拿不到稳定官方原文，可使用搜索摘录+链接，并明确“待复核”。\n4. 文末保留引用链接清单。\n5. 只修改这一份城市文件。\n",
+          "runtime": "subagent",
+          "mode": "run",
+          "timeoutSeconds": 3600,
+          "sandbox": "inherit"
+        }
+      },
+      {
+        "city": "南昌",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:待补"
+        ],
+        "started_at": "2026-03-12T00:39:32",
+        "spawn_blueprint": {
+          "city": "南昌",
+          "cwd": "/root/.openclaw/workspace/talent-policy-repo",
+          "label": "talent-deep-南昌",
+          "task": "严格版深挖并完善《南昌》人才政策速查：编辑 `重点城市速查版/南昌.md`。\n要求：\n1. 如果原文件是骨架/半成品，直接补全到可交付深度版。\n2. 必须覆盖：市级政策核心条目、主要区县差异、金额/门槛/有效期、申请入口、互斥/限制条件。\n3. 每个关键结论尽量给官方链接；如果当前环境拿不到稳定官方原文，可使用搜索摘录+链接，并明确“待复核”。\n4. 文末保留引用链接清单。\n5. 只修改这一份城市文件。\n",
+          "runtime": "subagent",
+          "mode": "run",
+          "timeoutSeconds": 3600,
+          "sandbox": "inherit"
+        }
+      },
+      {
+        "city": "昆明",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:待复核"
+        ],
+        "started_at": "2026-03-12T00:39:32",
+        "spawn_blueprint": {
+          "city": "昆明",
+          "cwd": "/root/.openclaw/workspace/talent-policy-repo",
+          "label": "talent-deep-昆明",
+          "task": "严格版深挖并完善《昆明》人才政策速查：编辑 `重点城市速查版/昆明.md`。\n要求：\n1. 如果原文件是骨架/半成品，直接补全到可交付深度版。\n2. 必须覆盖：市级政策核心条目、主要区县差异、金额/门槛/有效期、申请入口、互斥/限制条件。\n3. 每个关键结论尽量给官方链接；如果当前环境拿不到稳定官方原文，可使用搜索摘录+链接，并明确“待复核”。\n4. 文末保留引用链接清单。\n5. 只修改这一份城市文件。\n",
+          "runtime": "subagent",
+          "mode": "run",
+          "timeoutSeconds": 3600,
+          "sandbox": "inherit"
+        }
+      }
+    ],
+    "running_before": [],
+    "running_after": [
+      {
+        "city": "福州",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:金额"
+        ],
+        "started_at": "2026-03-12T00:39:32"
+      },
+      {
+        "city": "南昌",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:待补"
+        ],
+        "started_at": "2026-03-12T00:39:32"
+      },
+      {
+        "city": "昆明",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:待复核"
+        ],
+        "started_at": "2026-03-12T00:39:32"
+      }
+    ],
+    "rewrite_preview": [
+      {
+        "city": "福州",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:金额"
+        ]
+      },
+      {
+        "city": "南昌",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:待补"
+        ]
+      },
+      {
+        "city": "昆明",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:待复核"
+        ]
+      },
+      {
+        "city": "哈尔滨",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      },
+      {
+        "city": "长春",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      },
+      {
+        "city": "沈阳",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      },
+      {
+        "city": "大连",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      },
+      {
+        "city": "徐州",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      },
+      {
+        "city": "温州",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      },
+      {
+        "city": "潍坊",
+        "reason": "rewrite",
+        "issues": [
+          "placeholder:首轮骨架",
+          "missing_hint:链接",
+          "missing_hint:金额",
+          "missing_links",
+          "missing_districts"
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "completed_count": 0,
+    "launch_count": 3,
+    "running_count": 3,
+    "open_slots": 0,
+    "backlog_total": 15,
+    "backlog_done": 0
+  },
+  "running": [
+    {
+      "city": "福州",
+      "reason": "rewrite",
+      "issues": [
+        "placeholder:首轮骨架",
+        "missing_hint:金额"
+      ],
+      "started_at": "2026-03-12T00:39:32"
+    },
+    {
+      "city": "南昌",
+      "reason": "rewrite",
+      "issues": [
+        "placeholder:待补"
+      ],
+      "started_at": "2026-03-12T00:39:32"
+    },
+    {
+      "city": "昆明",
+      "reason": "rewrite",
+      "issues": [
+        "placeholder:待复核"
+      ],
+      "started_at": "2026-03-12T00:39:32"
+    }
+  ]
+}

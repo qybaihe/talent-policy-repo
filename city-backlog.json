@@ -2,10 +2,10 @@
   {
     "city": "福州",
     "priority": 100,
-    "status": "drafting",
+    "status": "deepsearching",
     "notes": "省会；与厦门/泉州/漳州联动",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:46:47.165Z"
+    "last_touched": "2026-03-12T00:39:32"
   },
   {
     "city": "南昌",
@@ -13,7 +13,7 @@
     "status": "deepsearching",
     "notes": "省会；补贴政策常见",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:37:48.907Z"
+    "last_touched": "2026-03-12T00:39:32"
   },
   {
     "city": "昆明",
@@ -21,7 +21,7 @@
     "status": "deepsearching",
     "notes": "省会；人才政策常见",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:37:48.907Z"
+    "last_touched": "2026-03-12T00:39:32"
   },
   {
     "city": "南宁",
