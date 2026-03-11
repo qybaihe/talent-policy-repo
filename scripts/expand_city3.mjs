@@ -54,10 +54,10 @@ function makeCityFile(city){
   return {outFile, created:true};
 }
 
-// pick 3 todo cities by priority desc
+// pick 1 todo city by priority desc
 const backlog = readJson(BACKLOG);
 const todo = backlog.filter(x=>x.status==='todo').sort((a,b)=>(b.priority||0)-(a.priority||0));
-const pick = todo.slice(0,3);
+const pick = todo.slice(0,1);
 if(pick.length===0){
   console.log('no todo city');
   process.exit(0);
@@ -85,11 +85,10 @@ for(const city of pickedCities){
 // commit & push
 sh('git add ' + Array.from(touchedFiles).map(f=>`"${f}"`).join(' '));
 try{
-  sh(`git commit -m "chore(city): add 3 draft skeletons (${pickedCities.join(' / ')})"`);
+  sh(`git commit -m "chore(city): add draft skeleton for ${pickedCities[0]}"`);
 }catch(e){
-  // nothing to commit
   console.log('nothing to commit');
   process.exit(0);
 }
 sh('git push');
-console.log('done:', pickedCities.join(', '));
+console.log('done:', pickedCities[0]);
