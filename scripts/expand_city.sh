@@ -37,7 +37,7 @@ OUT_FILE="$OUT_DIR/${CITY}.md"
 mkdir -p "$OUT_DIR" "$REPO_ROOT/templates" "$REPO_ROOT/scripts"
 
 if [[ ! -f "$OUT_FILE" ]]; then
-  python3 - <<PY 2>/dev/null || node - <<'NODE'
+  CITY="$CITY" DATE="$DATE" node - <<'NODE'
 const fs=require('fs');
 const city=process.env.CITY;
 const date=process.env.DATE;
@@ -45,7 +45,6 @@ let tpl=fs.readFileSync('templates/city.md','utf8');
 tpl=tpl.replaceAll('{{CITY}}',city).replaceAll('{{DATE}}',date);
 fs.writeFileSync(`重点城市速查版/${city}.md`,tpl);
 NODE
-  
 else
   echo "exists: $OUT_FILE; skip file creation"
 fi
