@@ -98,9 +98,10 @@
   {
     "city": "潍坊",
     "priority": 76,
-    "status": "todo",
+    "status": "drafting",
     "notes": "山东重要产业城市",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:53.427Z"
   },
   {
     "city": "珠海",
