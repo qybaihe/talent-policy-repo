@@ -1,0 +1,12 @@
+[
+  {"city":"福州","priority":90,"status":"todo","notes":"省会；与厦门/泉州/漳州联动","seed_links":[]},
+  {"city":"南昌","priority":88,"status":"todo","notes":"省会；补贴政策常见","seed_links":[]},
+  {"city":"昆明","priority":86,"status":"todo","notes":"省会；人才政策常见","seed_links":[]},
+  {"city":"南宁","priority":84,"status":"todo","notes":"省会","seed_links":[]},
+  {"city":"石家庄","priority":82,"status":"todo","notes":"省会","seed_links":[]},
+  {"city":"太原","priority":80,"status":"todo","notes":"省会","seed_links":[]},
+  {"city":"哈尔滨","priority":78,"status":"todo","notes":"省会","seed_links":[]},
+  {"city":"长春","priority":76,"status":"todo","notes":"省会","seed_links":[]},
+  {"city":"沈阳","priority":74,"status":"todo","notes":"省会","seed_links":[]},
+  {"city":"大连","priority":72,"status":"todo","notes":"副省级","seed_links":[]}
+]
