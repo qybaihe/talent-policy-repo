@@ -58,9 +58,10 @@
   {
     "city": "长春",
     "priority": 86,
-    "status": "todo",
+    "status": "drafting",
     "notes": "省会",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:27.727Z"
   },
   {
     "city": "沈阳",
