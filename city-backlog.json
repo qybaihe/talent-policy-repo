@@ -74,9 +74,10 @@
   {
     "city": "大连",
     "priority": 82,
-    "status": "todo",
+    "status": "drafting",
     "notes": "副省级",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:42.019Z"
   },
   {
     "city": "徐州",
