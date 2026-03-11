@@ -54,19 +54,28 @@ function makeCityFile(city){
   return {outFile, created:true};
 }
 
-// pick 1 todo city by priority desc
+// pick 1 city by priority desc
+// prefer todo; if none, recover drafting/deepsearching entries missing file
 const backlog = readJson(BACKLOG);
 const todo = backlog.filter(x=>x.status==='todo').sort((a,b)=>(b.priority||0)-(a.priority||0));
-const pick = todo.slice(0,1);
+let pick = todo.slice(0,1);
+
+if(pick.length===0){
+  const candidates = backlog
+    .filter(x=>['drafting','deepsearching'].includes(x.status))
+    .sort((a,b)=>(b.priority||0)-(a.priority||0));
+  pick = candidates.slice(0,1);
+}
+
 if(pick.length===0){
   console.log('no todo city');
   process.exit(0);
 }
 
-// mark as drafting first to avoid duplicates if overlapping runs
+// mark as drafting
 const pickedCities = pick.map(x=>x.city);
 for(const item of backlog){
-  if(pickedCities.includes(item.city) && item.status==='todo'){
+  if(pickedCities.includes(item.city)){
     item.status='drafting';
     item.last_touched=nowIso();
   }
