@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "engines": {
+    "bing_cn": "https://cn.bing.com/search?q={q}",
+    "360": "https://www.so.com/s?q={q}",
+    "sogou": "https://sogou.com/web?query={q}",
+    "duck": "https://duckduckgo.com/html/?q={q}"
+  },
+  "allowedDomains": [
+    ".gov.cn",
+    "zwfw.yn.gov.cn",
+    "zjt.fujian.gov.cn"
+  ],
+  "fields": [
+    {
+      "key": "life_subsidy",
+      "name": "生活补贴",
+      "queries": [
+        "{city} 生活补贴 实施细则 site:{cityGov}",
+        "{city} 人才 生活补贴 通知 site:.gov.cn filetype:pdf",
+        "{city} 青年人才 生活补贴 申报 条件 site:.gov.cn"
+      ]
+    },
+    {
+      "key": "rent_subsidy",
+      "name": "租房补贴/租赁补贴",
+      "queries": [
+        "{city} 租房补贴 实施细则 site:.gov.cn filetype:pdf",
+        "{city} 人才 租赁补贴 申报 条件 site:.gov.cn",
+        "{city} 商品房 租赁备案 租房补贴 site:.gov.cn"
+      ]
+    },
+    {
+      "key": "house_purchase",
+      "name": "购房补贴/安居/人才住房",
+      "queries": [
+        "{city} 购房补贴 人才 办法 site:.gov.cn filetype:pdf",
+        "{city} 人才住房 管理办法 site:.gov.cn",
+        "{city} 人才公寓 配租 配售 细则 site:.gov.cn"
+      ]
+    },
+    {
+      "key": "apply_portal",
+      "name": "申报入口/平台",
+      "queries": [
+        "{city} 人才 港 网 窗 平台 site:.gov.cn",
+        "{city} 政务服务 人才补贴 申报 site:.gov.cn",
+        "{city} 人社局 人才补贴 申报 site:.gov.cn"
+      ]
+    }
+  ]
+}
