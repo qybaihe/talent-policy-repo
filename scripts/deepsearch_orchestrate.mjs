@@ -72,12 +72,29 @@ async function webFetch(url){
 const plan = readJson(PLAN_PATH);
 let backlog = readJson(BACKLOG);
 const pick = pick3Todo(backlog);
-if(pick.length===0){
-  console.log('no todo city');
+let cities = pick.map(x=>x.city);
+
+// If no todo, allow continuing drafting cities (useful after skeleton stage)
+if(cities.length===0){
+  cities = backlog.filter(x=>x.status==='drafting')
+    .sort((a,b)=>(b.priority||0)-(a.priority||0))
+    .slice(0,3)
+    .map(x=>x.city);
+}
+
+if(cities.length===0){
+  console.log('no todo/drafting city');
   process.exit(0);
 }
-const cities = pick.map(x=>x.city);
-markDrafting(backlog, cities);
+
+// mark picked as deepsearching (state machine)
+const now=new Date().toISOString();
+for(const item of backlog){
+  if(cities.includes(item.city)){
+    item.status='deepsearching';
+    item.last_touched=now;
+  }
+}
 writeJson(BACKLOG, backlog);
 
 const touched = new Set([PLAN_PATH, BACKLOG]);
