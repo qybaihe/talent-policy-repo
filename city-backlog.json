@@ -114,8 +114,9 @@
   {
     "city": "西宁",
     "priority": 72,
-    "status": "todo",
+    "status": "drafting",
     "notes": "西北补位",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:37:00.956Z"
   }
 ]
