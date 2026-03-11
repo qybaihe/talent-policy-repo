@@ -26,30 +26,34 @@
   {
     "city": "南宁",
     "priority": 94,
-    "status": "todo",
+    "status": "drafting",
     "notes": "省会",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:20.700Z"
   },
   {
     "city": "石家庄",
     "priority": 92,
-    "status": "todo",
+    "status": "drafting",
     "notes": "省会",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:20.700Z"
   },
   {
     "city": "太原",
     "priority": 90,
-    "status": "todo",
+    "status": "drafting",
     "notes": "省会",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:20.700Z"
   },
   {
     "city": "哈尔滨",
     "priority": 88,
-    "status": "todo",
+    "status": "drafting",
     "notes": "省会",
-    "seed_links": []
+    "seed_links": [],
+    "last_touched": "2026-03-11T09:36:23.802Z"
   },
   {
     "city": "长春",
