@@ -3,7 +3,8 @@
   "workers": 3,
   "actions": {
     "completed_since_last_run": [
-      "沈阳"
+      "沈阳",
+      "长春"
     ],
     "launched": [],
     "running_before": [
