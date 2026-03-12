@@ -66,10 +66,10 @@
   {
     "city": "沈阳",
     "priority": 84,
-    "status": "drafting",
+    "status": "done",
     "notes": "省会",
     "seed_links": [],
-    "last_touched": "2026-03-11T09:36:31.668Z"
+    "last_touched": "2026-03-12T23:01:23"
   },
   {
     "city": "大连",
