@@ -186,7 +186,9 @@ def main():
             'running_count': len(new_running),
             'open_slots': max(0, args.workers - len(new_running)),
             'backlog_total': len(backlog),
-            'backlog_done': sum(1 for x in backlog if x.get('status') == 'done')
+            'backlog_done': sum(1 for x in backlog if x.get('status') == 'done'),
+            'backlog_active': sum(1 for x in backlog if x.get('status') in {'todo', 'drafting', 'deepsearching'}),
+            'rewrite_pending': len([c for c in candidates if c['reason'] == 'rewrite'])
         },
         'running': new_running
     }
